@@ -31,7 +31,7 @@ for i = 1:length(samplingRates)
 end
 
 % Saving concatenated signal as a WAV file
-outputFilename = 'full_sequence_combined.wav';
+outputFilename = 'full_sequence_combined(Q2).wav';
 audiowrite(outputFilename, fullSignal, highestFs);
 
 % Play the final concatenated signal
